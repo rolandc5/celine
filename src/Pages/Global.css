@@ -1,0 +1,226 @@
+/*
+Main
+*/
+.m-container {
+  margin: 0;
+  padding: 0;
+}
+
+.m-wrapper {
+
+}
+
+.m-innerContainer {
+
+}
+
+.m-outerMenuContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.m-menuContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.m-nameContainer {
+}
+
+.m-name {
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 0.3em;
+  text-align: left;
+}
+
+.m-menuDivider {
+  width: 100%;
+}
+
+.m-leftSide {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-menuTopSpace {
+  height: 100%;
+}
+
+.m-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.m-menuButton {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  transition: 0.3s ease;
+}
+
+.m-menuButton:hover {
+  color: gray;
+  transition: 0.3s ease;
+}
+
+.m-menuBottomDivider {
+  border-bottom: solid 0.1px;
+  color: gray;
+}
+
+.m-contentContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.m-innerContentContainer {
+  width: 50%;
+  flex-direction: column;
+}
+
+.m-linkContianer {
+  float: right;
+}
+
+/*
+Project
+*/
+
+.p-container {
+  margin: 0;
+  padding: 0;
+}
+
+.p-projectContainer {
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.p-projectLeft {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.p-projectRight {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.p-projectSize {
+  width: 100%;
+  max-height: 274px;
+  overflow: hidden;
+}
+
+.p-image {
+  width: 100%;
+  height: 500px;
+  transition: 0.2s ease;
+}
+
+.p-image:hover {
+  filter: opacity(0.8);
+  transition: 0.2ss ease;
+}
+
+/*
+About
+*/
+
+.a-container {
+  padding: 0;
+  margin: 0;
+}
+
+.a-innerContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.a-aboutBottomBorder {
+  border-bottom: solid 0.1px;
+}
+
+.a-aboutContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-leftSide {
+}
+
+.a-pictureContainer {
+  height: 100%;
+}
+
+.a-leftSideBottomSpace {
+  height: 100%;
+}
+
+.a-rightSide {
+}
+
+.a-intro {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+}
+
+.a-introParagraph {
+  line-height: 1.5;
+}
+
+.a-contactRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-contactLeft {
+  width: 50%;
+}
+
+.a-lineHeight {
+  line-height: 1.5;
+}
+
+
+
+.a-contactRight {
+  width: 100%;
+}
+
+.a-formRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.a-inputStyle {
+  border: none;
+  border-bottom: solid 0.1px;
+  width: 100%;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.a-inputStyleMessage {
+  border: none;
+  width: 100%;
+  padding: 5px;
+  font-size: 13px;
+  height: 9em;
+  resize: none;
+}
+
+.a-inputButton {
+  border: none;
+  border-top: solid 0.1px;
+  background-color: inherit;
+  width: 100%;
+  color: gray;
+}
